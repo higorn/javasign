@@ -165,7 +165,6 @@ public class Assinador {
                     NodeList lista= doc.getElementsByTagName(tagInsercao);
                     //busco a tag
                     inf = (Element) lista.item(0);
-                    inf.setIdAttribute("Id", true);
                 }
 
                 // Create a DOMSignContext and specify the RSA PrivateKey and
